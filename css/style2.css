@@ -1,0 +1,122 @@
+/*Etiquetas generales*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.15; /* 1 */
+}
+p,a,input,button,li,select,label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,h2,h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+h1{
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+h2{
+    color: #ccd;
+    font-size: 30px;
+}
+h3{
+    color: #6af;
+    margin: 10px 0px;
+}
+input,label,select,button{
+    font-size: 15px;
+}
+img{
+    object-fit:cover;
+}
+a{
+    text-decoration: none;
+}
+span{
+    color: #aaf;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+    list-style: none;
+}
+/*Section(seccion 3)*/
+body{
+    background: #119;
+    width: 100%;
+}
+/*Mi perfil*/
+.seccionPerfil{
+    width: 100%;
+}
+.miPerfil{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: minmax(150px,330px) minmax(200px,1fr);
+    border: 5px solid #31d;
+}
+.miPerfil .infoPersonal{
+    padding: 10px;
+    background: #007;
+    text-align: center;
+}
+.miPerfil .infoPersonal img{
+    width: 50%;
+    border-radius: 50%;
+}
+.miPerfil .infoPersonal .infoPer{
+    text-align: start;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.miPerfil .infoPersonal .infoPer p{
+    color: #ccf;
+    font-weight: 700;
+}
+.miPerfil .infoPersonal .infoPer h3{
+    color: #a9a;
+    width: 100%;
+    text-align: start;
+    margin-bottom: 15px;
+}
+.miPerfil .infoPersonal .infoPer span{
+    color: #33f;
+    width: 10px;
+    height: 5px;
+    margin-right: 5px;
+    font-weight: bolder;
+}
+.miPerfil .infoPersonal .infoPer li{
+    color: #ccf;
+}
+.miPerfil .infoProfesional{
+    background: #29f;
+    padding: 10px;
+}
+.miPerfil .infoProfesional h2{
+    color: #314;
+    padding: 10px 5px;
+    font-size: 40px;
+}
+.miPerfil .infoProfesional .infoPro{
+    margin: 40px 30px;
+    padding: 10px;
+    border-top: 6px groove #1C6EA4;
+    border-radius: 10px 10px 36px 36px;
+}
+.miPerfil .infoProfesional .infoPro h3{
+    color: #516;
+    text-align: start;
+}
+.miPerfil .infoProfesional .infoPro p{
+    color: #aff;
+}
+
+@media (max-width: 768px) {
+    .miPerfil{
+        display:block;
+    }
+}

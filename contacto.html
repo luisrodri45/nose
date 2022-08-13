@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Mi blog</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Principal</a></li>
+            <li><a href="ayuda.html">Ayuda</a></li>
+            <li class="activo"><a href="contacto.html">Contacto</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+        </ul>
+    </nav>
+    <section>
+        <fieldset>
+            <legend>Formulario de Contacto</legend>
+            <form autocomplete="off">
+                <label for="nombre">Tu nombre *:</label>
+                <input type="text" placeholder="Ingrese un nombre" id="nombre" name="nombre">
+                <label for="apellidoPaterno">Apellido paterno *:</label>
+                <input type="text" placeholder="Ingrese su apellido paterno" id="apellidoPaterno"
+                    name="apellidoPaterno">
+                <label for="apellidoMaterno">Apellido materno: </label>
+                <input type="text" placeholder="Ingrese su apellido materno" id="apellidoMaterno"
+                    name="apellidoMaterno">
+                <label for="rfc">RFC</label>
+                <input type="text" placeholder="Ingrese su RFC" id="rfc" name="rfc">
+                <label for="codigoPostal">Codigo Postal</label>
+                <input type="number" placeholder="Ingrese su codigo postal" id="codigoPostal" name="codigoPostal">
+                <a href="#">Como conseguirlo?</a>
+                <label for="estado">Estado</label>
+                <select name="estado" id="estado">
+                    <option value="1" selected="selected">Soltera/o</option>
+                    <option value="2">Casada/o</option>
+                    <option value="3">Viuda/o</option>
+                </select>
+                <label for="delegacion">Delegacion/Municipio*:</label>
+                <select name="delegacion" id="delegacion">
+                    <option value="1" selected="selected">Municipio 1</option>
+                    <option value="2">Municipio 2</option>
+                    <option value="3">Municipio 3</option>
+                </select>
+                <label for="colonia">Colonia *:</label>
+                <select name="colonia" id="colonia">
+                    <option value="1" selected="selected">Colonia 1</option>
+                    <option value="2">Colonia 2</option>
+                    <option value="3">Colonia 3</option>
+                </select>
+                <label for="agregarColonia" class="agregarColonia">Agregar Colonia</label>
+                <input type="checkbox" id="agregarColonia">
+                <label for="">Sexo</label>
+                <input type="radio" id="hombre" name="genero" value="hombre">
+                <label for="hombre">Hombre</label><br>
+                <input type="radio" id="mujer" name="genero" value="mujer">
+                <label for="mujer">Mujer</label><br>
+                <label for="fecha">Fecha de nacimiento*: </label>
+                <input type="date" name="fecha" id="fecha">
+                <label for="correo">Correo electronico</label>
+                <input type="email" id="correo" placeholder="Ingrese su correo">
+                <input type="submit" value="Enviar">
+            </form>
+        </fieldset>
+    </section>
+    <aside>
+        <h2>Submenu</h2>
+        <h3>Archivos</h3>
+        <details open>
+            <summary>2011(2)</summary>
+            <details open>
+                <summary>Julio(2)</summary>
+                <ul>
+                    <li><a href="new2011.html">Tsunami en Japón</a></li>
+                    <li><a href="new2011.html">Histórica victoria de Cristina Fernández de Kirchner</a></li>
+                </ul>
+            </details>
+        </details>
+        <h3>Acerca de</h3>
+        <ul class="perfil">
+            <li><a href="perfil.html">Ver mi Perfil</a></li>
+        </ul>
+    </aside>
+    <footer>
+        <h3>Derechos Reservados 2022</h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic recusandae fugiat odit ipsa expedita vero iste odio
+        eaque vitae consequatur ab voluptatem, autem earum nostrum cum eum impedit esse ea.
+    </footer>
+    </div>
+</body>
+</html>
