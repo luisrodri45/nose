@@ -48,6 +48,18 @@ header{
     color:#fff;
     clear:both;
 }
+.presentacion{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+.subti{
+    color: #00f;
+    font-weight: 500;
+}
 /*Nav(seccion 2)*/
 nav ul{
     background: #88f;
